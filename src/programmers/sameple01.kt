@@ -53,8 +53,11 @@ fun nullCheck() {
         "lala" -> "hoho"
         else -> "haha";
     })
-
     //!! -> null 일 수 없다 라고 명시하는것.
+
+    fullName.let {
+        println(it.toUpperCase());
+    } // null 이 아닐경우 let 으로 옮겨줌
 }
 
 
