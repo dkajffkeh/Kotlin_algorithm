@@ -8,11 +8,18 @@ class PlusTrueAndFalse : TestCaseInjectionTrigger {
         val absolutes : IntArray = intArrayOf(4,7,12)
         val signs : BooleanArray = booleanArrayOf(true,false,true)
 
-        solution(absolutes,signs)
+        println(solution(absolutes,signs));
     }
 
     fun solution(absolutes: IntArray, signs: BooleanArray): Int {
-        var answer: Int = 123456789
+        var answer = 0
+        for(i:Int in absolutes.indices){
+            if(signs[i]){
+                answer += absolutes[i];
+            } else {
+                answer -= absolutes[i];
+            }
+        }
         return answer
     }
 }

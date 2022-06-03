@@ -1,7 +1,7 @@
 package common.type
 
 import common.trigger.TestCaseInjectionTrigger
-import common.type.YnType.N
+import common.type.YnType.Y
 import programmers.level1.PlusTrueAndFalse
 
 enum class ProgrammersQuestionCode(val questionName : String,
@@ -12,7 +12,7 @@ enum class ProgrammersQuestionCode(val questionName : String,
 
     LEVEL1_QUESTION_76501( "[음양 더하기]"
         ,"https://programmers.co.kr/learn/courses/30/lessons/76501?language=kotlin"
-        , N
+        , Y
         ,PlusTrueAndFalse())
     ;
 
