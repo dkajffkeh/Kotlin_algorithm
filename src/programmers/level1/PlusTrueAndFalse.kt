@@ -7,7 +7,6 @@ class PlusTrueAndFalse : TestCaseInjectionTrigger {
     override fun trigger() {
         val absolutes : IntArray = intArrayOf(4,7,12)
         val signs : BooleanArray = booleanArrayOf(true,false,true)
-
         println(solution(absolutes,signs));
     }
 
