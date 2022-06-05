@@ -1,4 +1,4 @@
-package common.basic.grammer
+package common.basic.grammer.scopefunction
 
 fun main() {
 
