@@ -1,7 +1,7 @@
 package programmers.level1
 
 import common.trigger.TestCaseInjectionTrigger
-import programmers.TestClass
+
 
 class NumbersAndEnglishWords : TestCaseInjectionTrigger {
 

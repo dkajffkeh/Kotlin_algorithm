@@ -1,4 +1,5 @@
 package common.basic.grammer.observer
+/*
 
 fun main() {
     EventPrinter().start();
@@ -36,3 +37,4 @@ class EventPrinter { // 이벤트 수신
 // 문제가 있는 옵저버 패턴
 data class Article (val title : String , val content : String)
 
+*/

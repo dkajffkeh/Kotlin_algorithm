@@ -2,9 +2,7 @@
 
 package common.basic.grammer
 
-import java.util.*
-import common.basic.grammer.d as d
-
+/*
 fun a (string : String) : String{
     println("$string 함수 a")
     return "실행됨";
@@ -22,10 +20,10 @@ fun <T> c(function: (T) -> T) {
 @Suppress("UNCHECKED_CAST")
 fun <T> d(a : T) : T {
     return a
-}
+}*/
 
-fun main() {
-   /*b(::a);*/
+/*fun main() {
+   *//*b(::a);*//*
     val c : (String) -> String = {str ->
         val d : String = "returnValue"
         println("$str 람다함수")
@@ -34,7 +32,7 @@ fun main() {
     val a : String = d("haha");
     println(a);
 
-}
+}*/
 
 
 
